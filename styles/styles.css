@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    color: red;
+    padding: 20px 0;
+    font-weight: 700;
+}
+
+.headline span {
+    font-weight: 700;
+}
+
+.headline img{
+width: 100%;
+padding: 0 ;
+}
+
+.headline p:first-child {
+    font-size: 14px;
+}
+
+.headline p {
+    padding-bottom: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: left;
+   
+}
+
+.column1 h2{
+    padding: 20px 0;
+    font-weight: 700;
+}
+
+.column1 p {
+    padding-bottom: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.column1 ol {
+    padding: 0 0 20px 40px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.column2 h2{
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+
+.column2 p {
+    padding-bottom: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.column2 p:last-child {
+    padding-bottom: 80px;
+}
+
+.social-networks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-networks img {
+    width: 32px;
+    padding: 30px 10px;
+}
+
+.social-networks img:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+}
